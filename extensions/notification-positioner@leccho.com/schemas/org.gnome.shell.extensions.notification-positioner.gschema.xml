@@ -1,0 +1,14 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.notification-positioner" path="/org/gnome/shell/extensions/notification-positioner/">
+    <key name="banner-x-align" type="s">
+      <default>'CENTER'</default>
+      <summary>Horizontal alignment of the notification banner</summary>
+      <description>Specifies the horizontal alignment of the notification banner. Possible values are 'START', 'CENTER', 'END'.</description>
+    </key>
+    <key name="banner-y-align" type="s">
+      <default>'START'</default>
+      <summary>Vertical alignment of the notification banner</summary>
+      <description>Specifies the vertical alignment of the notification banner. Possible values are 'START', 'CENTER', 'END'.</description>
+    </key>
+  </schema>
+</schemalist>
